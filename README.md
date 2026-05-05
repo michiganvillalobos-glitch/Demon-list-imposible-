@@ -1,1 +1,101 @@
 # Demon-list-imposible-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demon List Imposible</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    
+h1 {
+            color: #ff0000;
+            text-shadow: 0 0 10px #ff0000;
+            text-transform: uppercase;
+            letter-spacing: 5px
+            
+  }.list-container {
+      width: 100%;
+            max-width: 800px;
+        }
+
+        .level-card {
+            background: #1a1a1a;
+            border-left: 5px solid #ff0000;
+            margin-bottom: 20px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+
+        .rank {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ff0000;
+            margin-right: 20px;
+            min-width: 50px;
+        }
+
+        .level-info {
+            flex-grow: 1;
+        }
+
+        .level-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 0;
+            color: #eee;
+        }
+
+        .level-image {
+            width: 150px;
+            height: 85px;
+            border: 2px solid #333;
+            object-fit: cover;
+            margin-left: 15px;
+            border-radius: 3px;
+        }
+
+        .video-box {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 560px;
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Demon List Imposible</h1>
+
+    <div class="list-container">
+        <div class="level-card">
+            <div class="rank">#1</div>
+            <div class="level-info">
+                <p class="level-name">ACU</p>
+                <small>Creador: Neigefeu</small>
+            </div>
+            <img src="foto1.jpg" alt="Acu" class="level-image">
+        </div>
+
+        </div>
+
+    <div class="video-box">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Z0oY66L9Z_c" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
